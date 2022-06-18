@@ -4,7 +4,7 @@
      * @return Response
      *
      * @OA\Put(
-     *      path="/$MODEL_NAME_PLURAL_CAMEL$/{id}",
+     *      path="/$API_PREFIX$/$API_VERSION$/$MODEL_NAME_PLURAL_CAMEL$/{id}",
      *      summary="update$MODEL_NAME$",
      *      tags={"$MODEL_NAME$"},
      *      description="Update $MODEL_NAME$",

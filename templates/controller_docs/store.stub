@@ -3,7 +3,7 @@
      * @return Response
      *
      * @OA\Post(
-     *      path="/$MODEL_NAME_PLURAL_CAMEL$",
+     *      path="/$API_PREFIX$/$API_VERSION$/$MODEL_NAME_PLURAL_CAMEL$",
      *      summary="create$MODEL_NAME$",
      *      tags={"$MODEL_NAME$"},
      *      description="Create $MODEL_NAME$",
